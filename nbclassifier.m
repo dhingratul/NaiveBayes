@@ -3,7 +3,7 @@ clear all;
 close all;
 clc;
 idx=1;
-alpha=1.000005;
+alpha=5;
 load reuters.mat;
 mat1=zeros(1,size(train,2));
 mat0=zeros(1,size(train,2));
